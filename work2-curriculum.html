@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport">
+    <title>作业2-课程表</title>
+    <style type="text/css">
+  
+    .classtable {
+        margin: 0 auto;
+        background-color: #09C;
+        text-align: center;
+        color: #FFF;
+		border:#CCC;
+    }
+	.mon,.tue,.wed,.thu,.fri,.sat{
+		color:#000;
+		}
+	.mon,.wed,.fri{
+		background-color:#999;
+	
+	
+		}
+		.tue,.thu,.sat{
+		background-color:#FFF;
+	
+		}
+		.nav{
+			height:50px;
+			line-height:50px;
+			}
+		
+    </style>
+</head>
+
+<body>
+    <h1 align="center">课程表</h1>
+    <table class="classtable" width="600" border="2" bordercolor="#00FFFF">
+        <thead>
+            <tr>
+                <th scope="col" class="nav">项目</th>
+                <th colspan="6" scope="col" class="nav">上课</th>
+                <th scope="col" class="nav">休息</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">星期</th>
+                <td class="mon">星期一</td>
+                <td class="tue">星期二</td>
+                <td class="wed">星期三</td>
+                <td class="thu">星期四</td>
+                <td class="fri">星期五</td>
+                <td class="sat">星期六</td>
+                <td class="sun">星期天</td>
+            </tr>
+            <tr>
+                <th rowspan="4" scope="row">上午</th>
+                <td class="mon">课程1.1</td>
+                <td class="tue">课程2.1</td>
+                <td class="wed">课程3.1</td>
+                <td class="thu">课程4.1</td>
+                <td class="fri">课程5.1</td>
+                <td class="sat">课程6.1</td>
+                <td rowspan="3" class="sun">休息</td>
+            </tr>
+            <tr>
+                <td class="mon">课程1.2</td>
+                <td class="tue">课程2.2</td>
+                <td class="wed">课程3.2</td>
+                <td class="thu">课程4.2</td>
+                <td class="fri">课程5.2</td>
+                <td class="sat">课程6.2</td>
+            </tr>
+            <tr>
+                <td class="mon">课程1.3</td>
+                <td class="tue">课程2.3</td>
+                <td class="wed">课程3.3</td>
+                <td class="thu">课程4.3</td>
+                <td class="fri">课程5.3</td>
+                <td class="sat">课程6.3</td>
+                
+            </tr>
+            <tr>
+                <td class="mon">课程1.4</td>
+                <td class="tue">课程2.4</td>
+                <td class="wed">课程3.4</td>
+                <td class="thu">课程4.4</td>
+                <td class="fri">课程5.4</td>
+                <td class="sat">课程6.4</td>
+                <td rowspan="3" class="sun">休息</td>
+            </tr>
+            <tr>
+                <th rowspan="2" scope="row">下午</th>
+               <td class="mon">课程1.5</td>
+                <td class="tue">课程2.5</td>
+                <td class="wed">课程3.5</td>
+                <td class="thu">课程4.5</td>
+                <td class="fri">课程5.5</td>
+                <td class="sat">课程6.5</td>
+            </tr>
+            <tr>
+                <td class="mon">课程1.6</td>
+                <td class="tue">课程2.6</td>
+                <td class="wed">课程3.6</td>
+                <td class="thu">课程4.6</td>
+                <td class="fri">课程5.6</td>
+                <td class="sat">课程6.6</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
