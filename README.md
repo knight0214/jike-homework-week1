@@ -1,1 +1,1 @@
-# jike-homework-week1
+# jike-week1
